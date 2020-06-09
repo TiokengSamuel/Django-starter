@@ -7,4 +7,4 @@ def home(request):
     return render(request, 'home.html', {'name': 'samuel'})
 
 def add(request):
-    return render(request, "result.html")
+    return render(request, 'result.html')
