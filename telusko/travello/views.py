@@ -9,4 +9,4 @@ def index(request):
     dests = Destination.objects.all()
     
 
-    return render(request, 'index.html', {'dests' : d
+    return render(request, 'index.html', {'dests' : dests})
