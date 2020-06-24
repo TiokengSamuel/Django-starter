@@ -4,4 +4,4 @@ from django.shortcuts import render
 
 
 def register(request):
-    pass
+    return render(request, 'register.html')
