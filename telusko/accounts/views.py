@@ -14,7 +14,7 @@ def register(request):
         password2 = request.POST['password2']
         email = request.POST['email']
 
-        user = User.objects.create_user(username=username, password=password1, email = email, first_name= firstname, last_name = last_name)
+        user = User.objects.create_user(username=username, password=password1, email = email, first_name= firstname, last_name = lastname)
         user.save();
         print('creatied user')
         return redirect('/')
