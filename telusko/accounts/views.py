@@ -11,6 +11,8 @@ def register(request):
         username = request.POST['username']
         password1 = request.POST['password1']
         password2 = request.POST['password2']
+        email = request.POST['email']
+
 
 
 
