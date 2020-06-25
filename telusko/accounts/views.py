@@ -19,6 +19,5 @@ def register(request):
         print('creatied user')
         return redirect('/')
 
-    else:
-        
-    return render(request, 'register.html')
+    else: 
+         return render(request, 'register.html')
