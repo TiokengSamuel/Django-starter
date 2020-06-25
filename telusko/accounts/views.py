@@ -4,4 +4,8 @@ from django.shortcuts import render
 
 
 def register(request):
+
+    if request.method == 'POST':
+        firstname = request.POST['first_name']
+
     return render(request, 'register.html')
