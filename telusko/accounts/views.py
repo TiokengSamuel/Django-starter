@@ -17,7 +17,7 @@ def register(request):
         user = User.objects.create_user(username=username, password=password1, email = email, first_name= firstname, last_name = last_name)
         user.save();
         print('creatied user')
-        return redirect(user creattd)
+        return redirect(user creatted)
 
     else:
         
