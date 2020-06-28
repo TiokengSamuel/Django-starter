@@ -22,4 +22,4 @@ def register(request):
     else: 
          return render(request, 'register.html')
 
-         # Will be paused for a while exams coming up!!
+         # Will be paused for a while exams coming up!!i
