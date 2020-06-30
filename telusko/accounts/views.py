@@ -24,6 +24,4 @@ def register(request):
 
          # One more day without commiting normally :)
     
-def create():
-    if expression:
-         pass
+        #prinzd refused the project
