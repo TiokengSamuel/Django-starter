@@ -23,3 +23,7 @@ def register(request):
          return render(request, 'register.html')
 
          # One more day without commiting normally :)
+    
+def create():
+    if expression:
+         pass
