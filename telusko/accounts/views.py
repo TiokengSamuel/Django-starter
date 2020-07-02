@@ -24,4 +24,4 @@ def register(request):
 
          # One more day without commiting normally :)
     
-        #prinzd refused
+        # I took the project for free(Talent Planet)
