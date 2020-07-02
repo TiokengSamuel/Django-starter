@@ -24,4 +24,4 @@ def register(request):
 
          # One more day without commiting normally :)
     
-        #prinzd refused the project
+        #prinzd refused
