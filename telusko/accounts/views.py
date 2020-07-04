@@ -24,4 +24,4 @@ def register(request):
 
          # One more day without commiting normally :)
     
-        # I took the project for free(Talent Planet)
+        # I met nervis nzometia today! Amazing
